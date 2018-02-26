@@ -51,10 +51,11 @@ fix_permissions ()
 
 #-------------------------- END: Helper functions --------------------------------
 
+fin exec composer install
+
 fix_permissions
 
 # Copy from settings templates
 copy_settings_file "${PROJECT_ROOT}/.docksal/etc/drupal_defaults/default.settings.local.php" "${SITEDIR_PATH}/settings.local.php"
-
 
 fin db import "${PROJECT_ROOT}/.docksal/etc/dump/init.sql"
