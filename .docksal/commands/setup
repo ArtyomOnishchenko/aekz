@@ -51,6 +51,8 @@ fix_permissions ()
 
 #-------------------------- END: Helper functions --------------------------------
 
+git checkout $1
+
 fin exec composer install
 
 fix_permissions
