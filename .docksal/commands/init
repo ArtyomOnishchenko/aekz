@@ -28,6 +28,21 @@ ver_to_int ()
 	echo "$@" | awk -F. '{ printf("%d%03d%03d", $1,$2,$3); }'
 }
 
+if [ -z ${1} ]
+then
+    echo-red "The branch parameter is required"
+    exit 1
+fi
+
+if [[ `git branch --list ${1}` ]]
+then
+    echo-green-bg "Branch $1 exist"
+    git checkout $1
+else
+    echo-red "Branch $1 doesn't exist"
+    exit 1
+fi
+
 #-------------------------- Execution --------------------------------
 
 # Minimum Docksal/Fin version requirement
@@ -53,7 +68,7 @@ sleep 10
 # Site initialization
 echo -e "${green_bg} Step 2 ${NC}${green} Initializing site...${NC}"
 # This runs inside cli using http://docs.docksal.io/en/v1.4.0/fin/custom-commands/#executing-commands-inside-cli
-fin setup $1
+fin setup
 
 echo -en "${green_bg} DONE! ${NC} "
 echo -e "Open ${yellow}http://${VIRTUAL_HOST}${NC} in your browser to verify the setup."
