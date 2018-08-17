@@ -1,0 +1,25 @@
+uuid: c0333e09-8ef6-4c2c-9919-bc55f176c3cf
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - aekznew
+_core:
+  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
+id: aekznew_branding
+theme: aekznew
+region: navigation
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

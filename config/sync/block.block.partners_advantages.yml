@@ -1,0 +1,31 @@
+uuid: 26e05d15-fe90-4557-be1e-b319396cdacd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:four_columns:747f2333-8d88-4bde-9c36-c7e776af681e'
+  module:
+    - block_content
+    - system
+  theme:
+    - aekznew
+id: partners_advantages
+theme: aekznew
+region: header
+weight: -8
+provider: null
+plugin: 'block_content:747f2333-8d88-4bde-9c36-c7e776af681e'
+settings:
+  id: 'block_content:747f2333-8d88-4bde-9c36-c7e776af681e'
+  label: 'Преимущества сотрудничества с нами'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

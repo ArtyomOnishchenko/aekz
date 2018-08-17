@@ -1,11 +1,11 @@
-uuid: 97fe3e21-1629-4835-b3ed-01ebb267286f
-name: Kino
+uuid: f8771d0c-93f5-449a-8b69-950798e9b1a1
+name: АЗОВЭЛЕКТРОКАБЕЛЬ
 mail: kino@avis.codes
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/5
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

@@ -1,0 +1,20 @@
+uuid: df87bae8-3c7d-43ee-8a74-6cf2f7bb215e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - aekznew
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: aekznew_local_actions
+theme: aekznew
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

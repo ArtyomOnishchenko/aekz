@@ -1,4 +1,4 @@
-uuid: fa8f083d-ec8b-4612-b887-0d8f63c0da1d
+uuid: 69d2e3be-789b-4ce0-ac4b-79a26dadf9da
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - user
 _core:
-  default_config_hash: msYnighLW1IbiBfyQbwbQwb2cU-5LECiFryt60k0Nfk
+  default_config_hash: gkRJCqHr3uSO8ALHLatX-7YKfX0lWEgkC5qMBtCf_Sg
 id: block_content
 label: 'Custom block library'
 module: views
@@ -448,7 +448,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'There are no custom blocks available. '
+          content: 'There are no custom blocks available.'
           plugin_id: text_custom
         block_content_listing_empty:
           admin_label: ''
@@ -471,7 +471,7 @@ display:
         - url
         - url.query_args
         - user.permissions
-      max-age: 0
+      max-age: -1
       tags: {  }
   page_1:
     display_plugin: page
@@ -496,5 +496,5 @@ display:
         - url
         - url.query_args
         - user.permissions
-      max-age: 0
+      max-age: -1
       tags: {  }

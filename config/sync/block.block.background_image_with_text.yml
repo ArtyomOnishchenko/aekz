@@ -1,0 +1,31 @@
+uuid: e7367e4d-1fa5-4728-b0eb-11d2f05fb344
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:text_with_background_image:aeeca775-64ee-4290-813c-28734129d74f'
+  module:
+    - block_content
+    - system
+  theme:
+    - aekznew
+id: background_image_with_text
+theme: aekznew
+region: header
+weight: -9
+provider: null
+plugin: 'block_content:aeeca775-64ee-4290-813c-28734129d74f'
+settings:
+  id: 'block_content:aeeca775-64ee-4290-813c-28734129d74f'
+  label: 'Фон на главную'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

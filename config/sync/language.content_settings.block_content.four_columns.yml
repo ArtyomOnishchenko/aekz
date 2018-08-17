@@ -1,0 +1,11 @@
+uuid: 98541e39-84eb-492d-ad9d-673bb686f503
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.four_columns
+id: block_content.four_columns
+target_entity_type_id: block_content
+target_bundle: four_columns
+default_langcode: site_default
+language_alterable: false

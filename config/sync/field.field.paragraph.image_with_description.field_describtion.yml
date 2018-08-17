@@ -1,0 +1,21 @@
+uuid: 0965413f-eddd-457b-a9fd-84f8cae3c30d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_describtion
+    - paragraphs.paragraphs_type.image_with_description
+  module:
+    - text
+id: paragraph.image_with_description.field_describtion
+field_name: field_describtion
+entity_type: paragraph
+bundle: image_with_description
+label: Описание
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

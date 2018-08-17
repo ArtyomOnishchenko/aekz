@@ -1,0 +1,8 @@
+uuid: ee070492-c345-474d-a0b8-738120d3e6a7
+langcode: en
+status: true
+dependencies: {  }
+id: four_columns
+label: 'Четыре колонки'
+revision: 0
+description: ''

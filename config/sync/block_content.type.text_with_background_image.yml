@@ -1,0 +1,8 @@
+uuid: 10a4b37d-9d47-433d-b595-525cb9475b1d
+langcode: en
+status: true
+dependencies: {  }
+id: text_with_background_image
+label: 'Текст с фоновой картинкой'
+revision: 0
+description: ''

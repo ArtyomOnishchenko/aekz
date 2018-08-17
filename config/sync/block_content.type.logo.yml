@@ -1,0 +1,8 @@
+uuid: 6be438b1-8ce9-475d-ab7c-6f6b12fd2785
+langcode: en
+status: true
+dependencies: {  }
+id: logo
+label: Логотип
+revision: 0
+description: ''

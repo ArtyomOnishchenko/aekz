@@ -1,0 +1,22 @@
+uuid: 4cf5e3a7-992c-4711-9260-e39edab3bc63
+langcode: en
+status: true
+dependencies:
+  theme:
+    - aekznew
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: aekznew_local_tasks
+theme: aekznew
+region: header
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

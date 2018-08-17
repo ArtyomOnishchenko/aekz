@@ -1,0 +1,52 @@
+uuid: 1408d023-e6bf-404e-bd47-d5a8d4c9a0b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.four_columns
+    - field.storage.block_content.field_advantages
+    - paragraphs.paragraphs_type.image_with_description
+  module:
+    - entity_reference_revisions
+id: block_content.four_columns.field_advantages
+field_name: field_advantages
+entity_type: block_content
+bundle: four_columns
+label: Преимущества
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      image_with_description: image_with_description
+    target_bundles_drag_drop:
+      from_library:
+        weight: 9
+        enabled: false
+      image_text:
+        weight: 10
+        enabled: false
+      image_with_description:
+        enabled: true
+        weight: 11
+      images:
+        weight: 12
+        enabled: false
+      nested_paragraph:
+        weight: 13
+        enabled: false
+      text:
+        weight: 14
+        enabled: false
+      text_image:
+        weight: 15
+        enabled: false
+      user:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

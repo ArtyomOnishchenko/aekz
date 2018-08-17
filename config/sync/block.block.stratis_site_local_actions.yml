@@ -1,0 +1,20 @@
+uuid: cede5593-643c-45c9-915d-d8802d575d18
+langcode: en
+status: true
+dependencies:
+  theme:
+    - stratis_site
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: stratis_site_local_actions
+theme: stratis_site
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 3733a78a-3dc7-4743-a088-ded41914b8fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_with_background_image
+    - field.field.block_content.text_with_background_image.body
+    - field.field.block_content.text_with_background_image.field_image
+  module:
+    - text
+id: block_content.text_with_background_image.default
+targetEntityType: block_content
+bundle: text_with_background_image
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image: true
+  langcode: true

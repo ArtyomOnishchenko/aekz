@@ -1,0 +1,25 @@
+uuid: 9f97c0f4-a440-4324-9402-a27153a26a6e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:logo:3d5f293b-2ec7-46ad-8c5f-e901504fbe6a'
+  module:
+    - block_content
+  theme:
+    - aekznew
+id: logo
+theme: aekznew
+region: navigation
+weight: -7
+provider: null
+plugin: 'block_content:3d5f293b-2ec7-46ad-8c5f-e901504fbe6a'
+settings:
+  id: 'block_content:3d5f293b-2ec7-46ad-8c5f-e901504fbe6a'
+  label: Логотип
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

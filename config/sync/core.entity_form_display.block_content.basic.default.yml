@@ -1,11 +1,14 @@
-uuid: f0ae43c5-e073-41c5-88f1-b3a25df4bb13
+uuid: 7af12b20-76f7-4e8a-98e7-8bc8020fad6a
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.basic
     - field.field.block_content.basic.body
+    - field.field.block_content.basic.field_image
+    - image.style.thumbnail
   module:
+    - image
     - text
 _core:
   default_config_hash: e1Nu5xXAuF_QplbBUhQBPLnYWvHtDX0MkZnpuCiY8uM
@@ -23,6 +26,14 @@ content:
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
+  field_image:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
   info:
     type: string_textfield
     weight: -5
@@ -30,5 +41,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden: {  }
