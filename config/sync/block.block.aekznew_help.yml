@@ -1,0 +1,22 @@
+uuid: f5e3ac79-3843-491b-a631-1c7b10d0bf4d
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - aekznew
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: aekznew_help
+theme: aekznew
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

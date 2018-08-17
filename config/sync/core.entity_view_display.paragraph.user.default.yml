@@ -1,0 +1,25 @@
+uuid: f12e7c56-1bfe-4f7b-9e72-1d51fc2c3d5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.user.field_user_demo
+    - paragraphs.paragraphs_type.user
+_core:
+  default_config_hash: lnkn109axN_p0s-F9NH4awny0ORtlmBkffTR76pNT6Q
+id: paragraph.user.default
+targetEntityType: paragraph
+bundle: user
+mode: default
+content:
+  field_user_demo:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  created: true
+  uid: true

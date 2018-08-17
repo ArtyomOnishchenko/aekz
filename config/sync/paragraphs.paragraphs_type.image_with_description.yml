@@ -1,0 +1,9 @@
+uuid: 5bbb48c5-1f35-4922-8612-d8bac4dedbac
+langcode: en
+status: true
+dependencies: {  }
+id: image_with_description
+label: 'Изображение с описанием'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,13 +1,13 @@
-uuid: f6deace4-7af8-4ead-a097-8f3754f4a463
+uuid: 9bc97b1e-7f81-461e-8436-17338d9bf87f
 langcode: en
 status: true
 dependencies:
   module:
     - comment
 _core:
-  default_config_hash: f6w_Pd30AyyDIoMkD4QpPMM2-I8FTEHICchFVOpjiCI
+  default_config_hash: C00dyL_W_5M0nFlgUB3lWUTUs96jn51Jw1MLHVEHZD0
 id: comment_publish_action
 label: 'Publish comment'
 type: comment
-plugin: comment_publish_action
+plugin: 'entity:publish_action:comment'
 configuration: {  }

@@ -1,0 +1,20 @@
+uuid: 04d46559-1f60-4881-875e-f252131523e7
+langcode: en
+status: false
+dependencies:
+  theme:
+    - aekznew
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: aekznew_page_title
+theme: aekznew
+region: header
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: АЗОВЭЛЕКТРОКАБЕЛЬ
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 99974f80-0d18-48d3-9c82-ac9ad05e9a92
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aekznew
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: aekznew_content
+theme: aekznew
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

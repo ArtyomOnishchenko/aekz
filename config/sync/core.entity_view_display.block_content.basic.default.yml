@@ -1,11 +1,13 @@
-uuid: 85d67056-95d0-4507-a842-bcea32ce2c34
+uuid: de2043c1-b1f8-4633-a99b-e8ac4f222c5b
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.basic
     - field.field.block_content.basic.body
+    - field.field.block_content.basic.field_image
   module:
+    - image
     - text
 _core:
   default_config_hash: orJpHUlAc_wiQLMUjIgEJXGeiqylGHMPcmNRjGtct-M
@@ -21,4 +23,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true

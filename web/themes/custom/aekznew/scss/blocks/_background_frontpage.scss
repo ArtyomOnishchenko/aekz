@@ -1,0 +1,37 @@
+#block-background-image-with-text {
+  min-height: 700px;
+  background-size: cover !important;
+}
+
+#block-background-image-with-text .field--type-text-with-summary {
+
+  @media  #{$mobile} {
+    font-size: 1.4em;
+    margin-top: 170px;
+  }
+
+  @media  #{$tablet} {
+    margin-top: 200px;
+  }
+
+  @media  #{$normal} {
+    margin-top: 210px;
+  }
+
+  margin-top: 250px;
+  text-transform: uppercase;
+  font-size: 1.9em;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  line-height: 200%;
+
+  p {
+    background:  rgba(0, 0, 0, 0.75);
+    display: inline;
+    text-decoration: underline;
+    margin-top: 1em;
+    line-height: 1.5em;
+    padding: 0px 15px;
+  }
+}

@@ -1,0 +1,22 @@
+uuid: b45ea46f-16b2-41f5-9d20-4e3f0e902e86
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stratis_site
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: stratis_site_breadcrumbs
+theme: stratis_site
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

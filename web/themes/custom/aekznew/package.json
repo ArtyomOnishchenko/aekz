@@ -1,0 +1,49 @@
+{
+  "name": "aekznew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets/javascripts/bootstrap.js",
+  "style": "assets/stylesheets/_bootstrap.scss",
+  "sass": "assets/stylesheets/_bootstrap.scss",
+  "files": [
+    "assets",
+    "eyeglass-exports.js",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twbs/bootstrap-sass"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "css",
+    "eyeglass-module"
+  ],
+  "contributors": [
+    "Thomas McDonald",
+    "Tristan Harward",
+    "Peter Gumeson",
+    "Gleb Mazovetskiy"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twbs/bootstrap-sass/issues"
+  },
+  "devDependencies": {
+    "ejs": "~2.4.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "mincer": "~1.4.0",
+    "node-sass": "^3.8.0"
+  },
+  "eyeglass": {
+    "exports": "eyeglass-exports.js",
+    "needs": "^0.7.1"
+  }
+}
